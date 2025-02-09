@@ -36,7 +36,7 @@ Este projeto demonstra o controle de um servo motor usando PWM no Raspberry Pi P
 https://youtu.be/nLE-110qzLs.
 
 ## 💡 Efeito Visual com LED na GPIO 12
-Se esse código fosse utilizado para controlar um LED na GPIO 12, o efeito visual seria uma transição de brilho suave e progressiva. Durante a movimentação do servo, o LED aumenta e diminui gradualmente a intensidade, criando um efeito de "respiração" semelhante ao visto em indicadores de stand-by de dispositivos eletrônicos. Existe também uma tremulação que pode ocorrer quando a frequência do PWM está muito baixa para os LEDs. No código, a frequência foi configurada para 50 Hz, que é ideal para servomotores, mas muito baixa para LEDs.
+Esse código utilizado para controlar um LED na GPIO 12, gera um efeito visual que seria uma transição de brilho suave e progressiva. Durante a movimentação do servo, o LED aumenta e diminui gradualmente a intensidade, criando um efeito de "respiração" semelhante ao visto em indicadores de stand-by de dispositivos eletrônicos. Existe também uma tremulação que pode ocorrer quando a frequência do PWM está muito baixa para os LEDs. No código, a frequência foi configurada para 50 Hz, que é ideal para servomotores, mas muito baixa para LEDs.
 Os olhos humanos conseguem perceber variações em brilho em frequências abaixo de 100 Hz, especialmente abaixo de 70 Hz.
 
 ---
