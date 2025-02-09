@@ -16,7 +16,7 @@ void setup_pwm() {
     pwm_set_wrap(slice_num, PWM_WRAP);
 
     // Configura o divisor de clock do PWM
-    pwm_set_clkdiv(slice_num, 200); // 125 MHz
+    pwm_set_clkdiv(slice_num, 200); // 200 MHz
 
     // Habilita o PWM 
     pwm_set_enabled(slice_num, true);
